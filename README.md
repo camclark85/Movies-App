@@ -5,7 +5,7 @@ composer update --no-scripts<br />
 npm install<br />
 php artisan serve --port=8000<br />
 <br/>
-To reseed sqlite DB run (not required to run):<br />
+DB is preseeded but if you wish to reseed it run:<br />
 php artisan db:seed<br />
 
 # UI Deployment
