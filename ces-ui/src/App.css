@@ -1,0 +1,64 @@
+
+body {
+  background-color: #282c34;
+}
+
+.alignWrapper {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fieldWrapper { 
+  position: relative;
+}
+
+form {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 100px;
+}
+
+.resultBox { 
+  display: inline-block;
+  width:50%;
+}
+
+.resultImg img {
+  max-height: 400px;
+}
+
+.resultTitle {
+  margin:5px 0;
+}
+
+.resultTitle strong {
+  font-size: 16px;
+}
+.resultDesc {
+  font-size: 11px;
+}
+
+.movieBox {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  min-height: 570px;
+}
+
+.formSubmit {
+  margin: 25px 0 15px 0;
+}
+
+@media screen and (max-width: 550px) {
+  .loginBox {
+    width: 85%;
+  }
+}
