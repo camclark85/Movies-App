@@ -1,7 +1,7 @@
 
 # API Deployment
 From '/CES/ces-api/' run the following: <br />
-composer update --no-scripts<br />  
+composer update --no-scripts<br />
 npm install<br />
 php artisan serve --port=8000<br />
 <br/>
